@@ -7,6 +7,11 @@ using namespace std;
  
 /**-------Shortend Library-------*/
 
+#define vi vector<int>
+#define mii map<int, int>
+
+#define ff first
+#define ss second
 #define all(a)         a.begin(),a.end()
 #define Sort(x)        sort(x.begin(),x.end())
 #define SortR(x)       sort(x.begin(),x.end(),greater<int>())
@@ -40,3 +45,24 @@ using namespace std;
 /**----data type----*/
 #define ll long long int
 #define llu unsigned long long int
+
+/**----Functions to use----**/
+
+ll powerLog(ll base, ll power) 
+{
+    ll res = 1;
+    while(power) 
+    {
+        if(power%2) 
+        {
+            res *= base;
+            power--;
+        } else 
+        {
+            base *=base;
+            power/=2;
+        }
+    }
+    return res;
+}
+
