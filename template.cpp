@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+/**----data type----*/
+#define ll long long int
+#define llu unsigned long long int
+
  
 #define fast      ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 #define pi          acos(-1.0)
@@ -9,6 +14,7 @@ using namespace std;
 
 #define vi vector<int>
 #define mii map<int, int>
+#define f(i,n) for(ll i=0; i<n; i++)
 
 #define ff first
 #define ss second
@@ -35,16 +41,10 @@ using namespace std;
 #define max3(a,b,c)       max(a,max(b,c))
 #define max4(a,b,c,d)     max(a,max(b,max(c,d)))
 #define pb(x)             push_back(x)
-#define mod               1000000007
+#define mod               1e8+7
 #define precision(x)      cout<<fixed<<setprecision(x)
 #define yes               cout<<"YES"<<nl
 #define no                cout<<"NO"<<nl
- 
-
- 
-/**----data type----*/
-#define ll long long int
-#define llu unsigned long long int
 
 /**----Functions to use----**/
 
