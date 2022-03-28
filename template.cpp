@@ -15,6 +15,8 @@ using namespace std;
 #define vi vector<int>
 #define mii map<int, int>
 #define f(i,n) for(ll i=0; i<n; i++)
+#define FOR(i, a, b) for(ll i=a; i<=b; i++)
+#define testcase ll t;cin>>t;while(t--)
 
 #define ff first
 #define ss second
@@ -65,4 +67,3 @@ ll powerLog(ll base, ll power)
     }
     return res;
 }
-
