@@ -67,3 +67,29 @@ ll powerLog(ll base, ll power)
     }
     return res;
 }
+
+//calculating nCr in O(RlogN) complexity.
+void nCr(int n, int r) {
+    if(n-r<r){
+        r = n-r;
+    }
+    int p = 1, den = 1;
+
+    if(r!=0){
+        while(r){
+            p*=n;
+            den*=r;
+
+            int div = __gcd(p,den); 
+            p/=div;
+            den/=div;
+
+            n--;
+            r--;
+        }
+    } else {
+        p=1;
+    }
+
+    cout<<p<<nl;
+}
