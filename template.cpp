@@ -68,6 +68,11 @@ ll powerLog(ll base, ll power)
     return res;
 }
 
+//custom comparator function
+bool comp (pair<int,int>a, pair<int, int>b) {
+    return a.first>b.first;
+}
+
 //calculating nCr in O(RlogN) complexity.
 void nCr(int n, int r) {
     if(n-r<r){
