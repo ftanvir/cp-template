@@ -47,7 +47,7 @@ using namespace std;
 #define precision(x)      cout<<fixed<<setprecision(x)
 #define yes               cout<<"YES"<<nl
 #define no                cout<<"NO"<<nl
-
+#define min_heap priority_queue<ll,vector<ll>,greater<ll>>
 /**----Functions to use----**/
 
 ll powerLog(ll base, ll power) 
