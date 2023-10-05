@@ -33,6 +33,7 @@ using namespace std;
 #define yes               cout<<"YES"<<nl
 #define no                cout<<"NO"<<nl
 #define min_heap priority_queue<ll,vector<ll>,greater<ll>>
+#define inf 1000000000000000LL
 
 typedef long long ll;
 typedef unsigned long long ull;
